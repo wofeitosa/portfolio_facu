@@ -1,0 +1,520 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ /* variaveis de cores 
+ white:  #FFFFFF
+ green:  #29AE81
+ marrom: #A4A4A4
+ black:  #000000
+ */
+
+ /* variaveis de fontes
+ font-family: Ruda, sans-serif
+ font-weight: title: 700, subtitle: 500, paragraf: 400;
+ 
+ */
+
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    background-color: white;
+}
+.webview {
+    width: 100%;
+    margin: auto;
+}
+.intro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #29AE81;
+        color: white;
+}
+
+ h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: "ruda", sans-serif;
+    font-weight: 700;
+    
+}
+
+
+
+p {
+    font-family: "ruda", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.m-auto-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+}    
+
+.btn-portfolio {
+        font-family: sans-serif;
+        font-weight: 400;
+        width: 160px;
+        height: 35px;
+        border-radius: 6px;
+        border: 1px solid #FFFFFF;
+        background-color: transparent;
+        color: #FFFFFF;
+}
+.sobre {
+    width: 100%;
+}
+.sobre .container {
+    padding: 10px;
+}
+
+.sobre .title { 
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.sobre h2 {
+    font-family: "ruda", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #29AE81;
+    
+}
+.row {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.c-photo {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+img {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.c-descricao {
+    width: 100%;
+
+}
+.c-descricao p {
+    font-family: "ruda", sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.habilidades {
+    width: 100%;
+}
+.habilidades h2 {
+    font-family: "ruda", sans-serif;
+    
+    font-size: 1.4rem;
+    color: #29AE81;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.h-item {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.h-title {
+    width: 100%;
+}
+h3 {
+    font-family: "ruda", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.h-c-porcentagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    min-height: 25px;
+}
+.h-porcentagem-geral {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 6px;
+    border-radius: 6px;
+}
+.h-porcentagem-conhecimento {
+    height: 100%;
+}
+span {
+    font-family: "ruda", sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.webview .servicos {
+    width: 100%;
+    background-color: #29AE81;
+    color: #FFFFFF;
+}
+
+.webview .container {
+    padding: 10px;
+}
+.s-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.servicos h2 {
+    font-family: "ruda", sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #FFFFFF;
+
+}
+.s-carrousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.s-carrousel-container {
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+}
+.item-s-carrousel-item {
+    min-height: 260px;
+    background-color: #FFFFFF;
+    color: #29AE81;
+}
+.servicos .title {
+    width: 100%;
+    padding: 10px;
+
+}
+.servicos .title p {
+    font-family:  sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.servicos .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 180px;
+}
+.servicos .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.servicos span i {
+    font-size: 38px;
+
+}
+.servicos .texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 10px;
+}
+.servicos p {
+    font-family: "ruda", sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.portfolios {
+    width: 100%;
+    min-height: 100vh;
+}
+.portfolios .container {
+    padding: 10px;
+}
+.portfolios .p-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.portfolios h2 {
+    font-size: 1.6rem;
+    font-family: "ruda", sans-serif;
+    font-weight: bold;
+    color: #29AE81;
+}
+.p-projetos {
+    width: 100%;
+}
+.projeto {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, auto);
+    row-gap: 10px;
+}
+.photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px; 
+}
+.img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+&:hover {
+    .descricao {
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 50px;
+        background-color: #29AE81;
+        bottom: 0;
+        left: 0;
+        z-index: 9999;
+
+        p {
+            display: block;
+            color: #FFFFFF;
+        }
+    }
+}
+.portfolios img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.portfolios .descricao {
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+
+
+    p {
+        display: none;
+        font-family: "ruda", sans-serif;
+        font-weight: 400;
+    }
+}    
+.contato {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.contato .container {
+    padding: 10px;
+}
+
+.contato .title {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    
+}
+.contato h2 {
+    font-family: "ruda", sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #29AE81;
+}
+.contato .formulario {
+    width: 100%;
+}
+.contato form {
+    width: 100%;
+}
+.form-group {
+    width: 100%;
+}
+.controls {
+    width: 100%;
+    min-height: 70px;
+}
+
+label {
+    font-family: "ruda", sans-serif;
+    font-weight: 400;
+    color: #29AE81;
+}
+input {
+    font-family: "ruda", sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #29Ae81;
+}
+input &:active {
+    border: 1px solid #29AE81;
+    border-radius: 2px;
+}
+input &:focus {
+    border: 1px solid #29AE81;
+    border-radius: 2px;
+}
+
+textarea {
+    font-family: "ruda", sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 180px;
+    padding: 10px;
+    border: 1px solid #29AE81;
+    outline: none;
+
+}
+textarea &:active {
+    border: 1px solid #29AE81;
+    border-radius: 2px;
+}
+textarea &:focus {
+    border: 1px solid #29AE81;
+    border-radius: 2px;
+}
+.btn-form-send {
+    font-family: "ruda", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #29AE81;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+.btn-form-send &:hover {
+    background-color: #29AE81;
+}
+.btn-form-send &:active {
+    background-color: #29AE81;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #29AE81;
+}
+footer span {
+    font-family: "ruda", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.h-porcentagem-conhecimento .c-10
+      {
+        width: 10%;
+        border-radius: 6px;
+        background-color: #29AE81;
+    }
+    .c-20 {
+        width: 20%;
+        border-radius: 6px;
+        background-color: #29AE81;
+    }
+    .c-30 {
+        width: 30%;
+        border-radius: 6px;
+        background-color: #29AE81;
+    }
+    .c-40 {
+        width: 40%;
+        border-radius: 6px;
+        background-color: #29AE81;
+    }
+    .c-50 {
+        width: 50%;
+        border-radius: 6px;
+        background-color: #29AE81;
+    }
+    .c-60 {
+        width: 60%;
+        border-radius: 6px;
+        background-color: #29AE81;
+    }
+    .c-70 {
+        width: 70%;
+        border-radius: 6px;
+        background-color: #29AE81;
+    }
+    .c-80 {
+        width: 80%;
+        border-radius: 6px;
+        background-color: #29AE81;
+    }
+    .c-90 {
+        width: 90%;
+        border-radius: 6px;
+        background-color: #29AE81;
+    }
+    .c-100 {
+        width: 100%;
+        border-radius: 6px;
+        background-color: #29AE81;
+    }
+    
+.m-auto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
